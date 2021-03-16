@@ -6,6 +6,12 @@ public class Helloworld {
 		// TODO Auto-generated method stub
 
 		System.out.println("Hello World");
+		System.out.println(addNumber(20,30));
+	}
+
+	private static int addNumber(int i, int j) {
+		// TODO Auto-generated method stub
+		return i+j;
 	}
 
 }
